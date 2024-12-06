@@ -34,4 +34,6 @@ button {
     display: block;
     background-color: #212121;
     color: #fff;
+    border: none;
+    border-radius: 5px;
 }
