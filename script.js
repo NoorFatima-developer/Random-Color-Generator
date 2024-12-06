@@ -16,3 +16,5 @@ getColor();
 
 // event call:
 document.getElementById("btn").addEventListener("click", getColor);
+
+
