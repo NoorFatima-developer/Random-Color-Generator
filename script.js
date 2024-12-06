@@ -1,3 +1,5 @@
+document.getElementById("color-code");
+
 const getColor = () => {
     // Max Code
 
@@ -7,6 +9,8 @@ const getColor = () => {
     document.body.style.backgroundColor = randomCode; 
 }
 
+// init call:
 getColor();
 
+// event call:
 document.getElementById("btn").addEventListener("click", getColor);
